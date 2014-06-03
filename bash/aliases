@@ -1,0 +1,30 @@
+alias filemerge='open /Applications/Xcode.app/Contents/Applications/FileMerge.app'
+alias g='git'
+alias grep='grep --color=auto'
+alias grunt='grunt --verbose'
+alias j='jump'
+alias ls='ls -lags'
+alias ng.stop='sudo nginx -s stop'
+alias ng.start='sudo nginx'
+alias ng.reload='sudo nginx -s stop && sudo nginx'
+alias nano='vim'
+alias qq='git status -sb'
+alias sudo='sudo '
+alias tmn="tmux new-session -s"
+alias tml="tmux ls"
+alias tma="tmux attach-session -t"
+alias tms="tmux switch-session -t"
+alias tree="tree -C"
+alias v='vim'
+alias va='vagrant'
+alias vi='vim'
+
+alias ga='g add'
+alias gc='g commit'
+alias gpl='g pull'
+alias gph='g push'
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias simulator='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+alias ios='/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator -SimulateApplication /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/Applications/MobileSafari.app/MobileSafari -u'
